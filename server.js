@@ -9,6 +9,8 @@ const todoRoute = require('./routes/todo-route')
 app.use('/auth',authRoute )
 app.use('/todo', todoRoute)
 
+console.log('rt01')
+
 app.use(notFound)
 app.use(errorMw)
 const port = process.env.PORT || 8000
