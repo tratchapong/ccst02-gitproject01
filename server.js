@@ -12,6 +12,7 @@ app.use('/auth',authRoute )
 app.use('/todo', todoRoute)
 
 console.log('rt01')
+console.log('rt02')
 
 app.use(notFound)
 app.use(errorMw)
